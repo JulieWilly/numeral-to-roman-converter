@@ -51,7 +51,7 @@ const output = document.getElementById('output');
 
 function toRomans() {
     convertInput.addEventListener('click', function(ev) {
-        ev.defaultPrevented()
+        ev.preventDefault();
         let number = userInput.value
         output.textContent = ""
         
