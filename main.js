@@ -76,11 +76,11 @@ toRomans()
 // object.addEventListener("keydown", function() {
 //     toRomans
 // })
-userInput.addEventListener('keypress', function(e){
-    ev.defaultPrevented();
-    // toRomans()
-    convertInput()
-})
+// userInput.addEventListener('keypress', function(e){
+//     ev.defaultPrevented();
+//     // toRomans()
+//     convertInput()
+// })
 // convertInput.addEventListener(KeyboardEvent, function(ev) {
 //     ev.defaultPrevented;
 //     let number = userInput.value
